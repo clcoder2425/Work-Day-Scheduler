@@ -19,20 +19,20 @@ $(function () {
 
   function colorByHour() {
     $('.time-block').each(function () {
-      const blockHour = parseInt(this.id);
-      $(this).toggleClass('past', blockHour < PresentHour);
-      $(this).toggleClass('present', blockHour === PresentHour);
-      $(this).toggleClass('future', blockHour > PresentHour);
+      const timeBlock = parseInt(this.id);
+      $(this).toggleClass('past', timeBlock < PresentHour);
+      $(this).toggleClass('present', timeBlock === PresentHour);
+      $(this).toggleClass('future', timeBlock > PresentHour);
     });
 
   }
 
   function restartColor() {
     $('.time-block').each(function () {
-      const blockHour = parseInt(this.id);
-      if (blockHour == PresentHour) {
+      const timeBlock = parseInt(this.id);
+      if (timeBlock == PresentHour) {
         $(this).removeClass('past future').addClass('present');
-      } else if (blockHour < PresentHour) {
+      } else if (timeBlock < PresentHour) {
         $(this).removeClass('future present').addClass('past');
 
       } else {
