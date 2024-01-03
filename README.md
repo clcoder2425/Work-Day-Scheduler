@@ -17,7 +17,7 @@ The Work Day Scheduler is a simple calendar app that allows a user to organize t
 ## Custom Features
 - Toggle color by time block.
 - Save data entry using jquery event handling
-- Display currect day and time using ordinal format
+- Display current day and time using ordinal format
 ## Usage
 The link for the webpage is: https://clcoder2425.github.io/Work-Day-Scheduler/
 
@@ -39,7 +39,7 @@ The link for the webpage is: https://clcoder2425.github.io/Work-Day-Scheduler/
  
  ## License
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-  
+
 ## Credits
 - MediumdotCom: https://medium.com/edureka/jquery-tutorial-for-beginners-679021d74ab4
 - FreeCodeCamp: https://www.freecodecamp.org/news/format-dates-with-ordinal-number-suffixes-javascript/
